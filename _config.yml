@@ -1,10 +1,10 @@
-title: "Blog Title"
-author: "Your Name"
-description: "A short description."
+title: "Evan Hildreth"
+author: "Evan Hildreth"
+description: "Software developer and creative analyst in Greenville, SC"
 baseurl: ""
-url: "https://site.url"
-email: "email@site.url"
-microblog_user: "joe"
+url: "https://oddevan.github.io"
+email: "me@eph.me"
+microblog_user: "oddevan"
 permalink: "/:year/:month/:day/:title.html"
 relative_permalinks: false
 paginate: 20
@@ -30,3 +30,18 @@ defaults:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tags
+
+twitter:
+  username: oddevan
+
+social:
+  name: Evan Hildreth
+  links:
+    - https://twitter.com/oddevan
+    - https://www.facebook.com/evan.hildreth
+    - https://www.linkedin.com/in/EvanHildreth
+    - https://youtube.com/oddevan
+    - https://github.com/oddevan
+    - https://keybase.io/oddevan
+    - https://paperairplanemob.tumblr.com
