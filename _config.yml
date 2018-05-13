@@ -30,7 +30,7 @@ defaults:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tags
+#  - jekyll-seo-tags
 
 twitter:
   username: oddevan
