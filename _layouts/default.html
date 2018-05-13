@@ -20,6 +20,10 @@
   <link href="{{ "/" | relative_url  }}assets/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed">
   <link href="{{ "/" | relative_url  }}feed.json" title="{{ site.title }}" type="application/json" rel="alternate">
   <link href="{{ "/" | relative_url  }}feed.xml" title="{{ site.title }}" type="application/rss+xml" rel="alternate">
+  <link rel="micropub" href="https://ephbackend.herokuapp.com/micropub/main">
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+  <link href="https://twitter.com/oddevan" rel="me">
 </head>
 <body>
   {% include navigation.html %}
