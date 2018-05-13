@@ -14,6 +14,9 @@ timezone: America/New_York # A list of all available values can be found at http
 highlighter: "rouge"
 markdown: "kramdown"
 
+exclude:
+  - archive
+
 defaults:
     -
         scope:
@@ -30,7 +33,7 @@ defaults:
 
 plugins:
   - jekyll-sitemap
-#  - jekyll-seo-tags
+  - jekyll-seo-tags
 
 twitter:
   username: oddevan
