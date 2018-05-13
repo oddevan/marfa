@@ -18,8 +18,8 @@ layout: null
     },{% else %}"{{ site.author }}",{% endif %}
     {% endif %}
 "items": [
-	{% if site.tags['micropost'] %}
-    {% for post in site.tags['micropost'] limit:36 %}
+	{% if site.categories['micropost'] %}
+    {% for post in site.categories['micropost'] limit:36 %}
         {
             "id": "{{ post.url | absolute_url | sha1 }}",
             "title": {{ post.title | jsonify }},
